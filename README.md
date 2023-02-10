@@ -21,4 +21,4 @@ If you're looking to join the growing team of talented individuals at Aire Logic
 
 ## The Tech Tests
 
- - [T2 Lifestyle Checker](/T2-Lifestyle-Checker/Readme.md) - write a simple web app that asks citizens questions about their lifestyle to assess their health choices
+ - [T2 Lifestyle Checker](/T2-Lifestyle-Checker) - write a simple web app that asks citizens questions about their lifestyle to assess their health choices

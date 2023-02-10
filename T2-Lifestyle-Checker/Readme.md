@@ -25,9 +25,9 @@ The api will respond with a 404 if the patient cannot be found or a json body li
 ```json
 {
 
-  nhsNumber: "123456789",
-  name: "DOE, John",
-  born: "25-12-1990"
+  "nhsNumber": "123456789",
+  "name": "DOE, John",
+  "born": "25-12-1990"
 }
 ```
 
