@@ -76,10 +76,12 @@ You will need to provide a subscription key to make calls to the API, this subsc
 
 There are 5 patients configured, which should allow you to test various scenarios
 
-Nhs Number | Name | Age |
------------|------|-----|
-111222333  | DOE, John | 18
-222333444  | SMITH, Alice| 25 |
-333444555  | CARTER, Bob | 46 |
-444555666  | BOND, Charles | 70 |
-555666777  | MAY, Megan | 14 |
+Nhs Number | Name | Age | DOB |
+-----------|------|-----|----|
+111222333  | DOE, John | 18 | Jan 14 |
+222333444  | SMITH, Alice| 25 | Mar 2 |
+333444555  | CARTER, Bob | 46 | May 20 |
+444555666  | BOND, Charles | 70 | July 18 |
+555666777  | MAY, Megan | 14 | Nov 14 |
+
+(NB: The API will always return a DOB that makes the patient the "correct age" - therefore if you call the API on the day before the patients birthday, when you call it the next day the year of their DOB will have changed so that they remain the same age )
