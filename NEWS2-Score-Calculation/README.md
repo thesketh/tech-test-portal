@@ -38,8 +38,8 @@ Your function can either take these measures as separate parameters, or take a s
 | Consciousness                  |          |              |                 | Alert                          |                       |                       | CVPU             |
 | Pulse (per minute)             | &le;40   |              | 41&ndash;50     | 51&ndash;90                    | 91&ndash;110          | 111&ndash;130         | &ge;131          |
 | Respiration rate (per minute)  | &le;8    |              | 9&ndash;11      | 12&ndash;20                    |                       | 21&ndash;24           | &ge;25           |
-| SpO~2~ Scale 1 (%)             | &le;91   | 92&ndash;93  | 94&ndash;95     | &ge;96                         |                       |                       |                  |
-| SpO~2~ Scale 2 (%)             | &le;83   | 84&ndash;85  | 86&ndash;87     | 88&ndash;92 (or &ge;93 on air) | 93&ndash;94 on oxygen | 95&ndash;96 on oxygen | &ge;97 on oxygen |
+| SpO<sub>2</sub> Scale 1 (%)    | &le;91   | 92&ndash;93  | 94&ndash;95     | &ge;96                         |                       |                       |                  |
+| SpO<sub>2</sub> Scale 2 (%)    | &le;83   | 84&ndash;85  | 86&ndash;87     | 88&ndash;92 (or &ge;93 on air) | 93&ndash;94 on oxygen | 95&ndash;96 on oxygen | &ge;97 on oxygen |
 | Systolic blood pressure (mmHg) | &le;90   | 91&ndash;100 | 101&ndash;110   | 111&ndash;219                  |                       |                       | &ge;220          |
 | Temperature (&deg;C)           | &le;35.0 |              | 35.1&ndash;36.0 | 36.1&ndash;38.0                | 38.1&ndash;39.0       | &ge;39.1              |                  |
 
@@ -51,8 +51,8 @@ The values of the observations will be the following data types:
 | Consciousness           | Enum (integer) | `0` if alert, non-zero if CVPU                    |
 | Pulse                   | Integer        |                                                   |
 | Respiration range       | Integer        |                                                   |
-| SpO~2~ Scale 1          | Integer        |                                                   |
-| SpO~2~ Scale 2          | Integer        |                                                   |
+| SpO<sub>2</sub> Scale 1 | Integer        |                                                   |
+| SpO<sub>2</sub> Scale 2 | Integer        |                                                   |
 | Systolic blood pressure | Integer        |                                                   |
 | Temperature             | Float          | This should be rounded to a single decimal place. |
 
@@ -68,8 +68,8 @@ Here are some examples of patients and their NEWS2 scores.
 | Consciousness           | 0           | 0     | The patient is conscious.                                                |
 | Pulse                   | 65          | 0     |                                                                          |
 | Respiration range       | 15          | 0     |                                                                          |
-| SpO~2~ Scale 1          | 98          | 0     |                                                                          |
-| SpO~2~ Scale 2          | 95          | 0     | As the patient is breathing air, this is a normal range.                 |
+| SpO<sub>2</sub> Scale 1 | 98          | 0     |                                                                          |
+| SpO<sub>2</sub> Scale 2 | 95          | 0     | As the patient is breathing air, this is a normal range.                 |
 | Systolic blood pressure | 120         | 0     |                                                                          |
 | Temperature             | 37.1        | 0     |                                                                          |
 
@@ -83,8 +83,8 @@ This patient's final NEWS2 score is **0**.
 | Consciousness           | 0           | 0     | The patient is conscious.                             |
 | Pulse                   | 95          | 1     |                                                       |
 | Respiration range       | 17          | 0     |                                                       |
-| SpO~2~ Scale 1          | 98          | 0     |                                                       |
-| SpO~2~ Scale 2          | 95          | 2     | As the patient is breathing oxygen, this is elevated. |
+| SpO<sub>2</sub> Scale 1 | 98          | 0     |                                                       |
+| SpO<sub>2</sub> Scale 2 | 95          | 2     | As the patient is breathing oxygen, this is elevated. |
 | Systolic blood pressure | 105         | 1     |                                                       |
 | Temperature             | 37.1        | 0     |                                                       |
 
@@ -98,8 +98,8 @@ This patient's final NEWS2 score is **6**.
 | Consciousness           | 1           | 3     | The patient is unconscious or confused.                     |
 | Pulse                   | 125         | 2     |                                                             |
 | Respiration range       | 23          | 2     |                                                             |
-| SpO~2~ Scale 1          | 96          | 0     |                                                             |
-| SpO~2~ Scale 2          | 88          | 0     | As the patient is breathing oxygen, this is a normal range. |
+| SpO<sub>2</sub> Scale 1 | 96          | 0     |                                                             |
+| SpO<sub>2</sub> Scale 2 | 88          | 0     | As the patient is breathing oxygen, this is a normal range. |
 | Systolic blood pressure | 95          | 2     |                                                             |
 | Temperature             | 38.5        | 1     |                                                             |
 
