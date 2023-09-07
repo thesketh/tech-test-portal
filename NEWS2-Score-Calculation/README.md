@@ -92,16 +92,16 @@ This patient's final NEWS2 score is **6**.
 
 ### Patient 3
 
-| Property                | Observation | Score | Comment                                                     |
-| ----------------------- | ----------- | ----- | ----------------------------------------------------------- |
-| Air or oxygen?          | 2           | 2     | The patient requires supplementary oxygen.                  |
-| Consciousness           | 1           | 3     | The patient is unconscious or confused.                     |
-| Pulse                   | 125         | 2     |                                                             |
-| Respiration range       | 23          | 2     |                                                             |
-| SpO<sub>2</sub> Scale 1 | 96          | 0     |                                                             |
-| SpO<sub>2</sub> Scale 2 | 88          | 0     | As the patient is breathing oxygen, this is a normal range. |
-| Systolic blood pressure | 95          | 2     |                                                             |
-| Temperature             | 38.5        | 1     |                                                             |
+| Property                | Observation | Score | Comment                                                             |
+| ----------------------- | ----------- | ----- | ------------------------------------------------------------------- |
+| Air or oxygen?          | 2           | 2     | The patient requires supplementary oxygen.                          |
+| Consciousness           | 1           | 3     | The patient is unconscious or confused.                             |
+| Pulse                   | 125         | 2     |                                                                     |
+| Respiration range       | 23          | 2     |                                                                     |
+| SpO<sub>2</sub> Scale 1 | 96          | 0     |                                                                     |
+| SpO<sub>2</sub> Scale 2 | 88          | 0     | This is a normal range for patients breathing either air or oxygen. |
+| Systolic blood pressure | 95          | 2     |                                                                     |
+| Temperature             | 38.5        | 1     |                                                                     |
 
 This patient's final NEWS2 score is **12**.
 
