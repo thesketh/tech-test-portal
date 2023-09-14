@@ -84,7 +84,7 @@ This patient's final Medi score is **4**.
 | Property                | Observation | Score | Comment                                                             |
 | ----------------------- | ----------- | ----- | ------------------------------------------------------------------- |
 | Air or oxygen?          | 2           | 2     | The patient requires supplementary oxygen.                          |
-| Consciousness           | 1           | 3     | The patient is unconscious or confused.                             |
+| Consciousness           | 1           | 1     | The patient is unconscious or confused.                             |
 | Respiration range       | 23          | 2     |                                                                     |
 | SpO<sub>2</sub>         | 88          | 0     | This is a normal range for patients breathing either air or oxygen. |
 | Temperature             | 38.5        | 1     |                                                                     |
@@ -93,7 +93,7 @@ This patient's final Medi score is **8**.
 
 ## Bonus 
 
-If you've completed the Medi score calculation and feel you have enough time left to spend then please attempt to solve any of the following issues:
+If you've completed the Medi score calculation and feel you have enough time left to spend then please attempt to solve any of the following issues, you will need additional fields in the input to satisfy these requirements:
 
 - Alerting for trends in the Medi score - While the score is useful on its own to assess the urgency of treatment, an increasing score over a short period of time would be worth notifying someone about. Can your system flag up an additional risk if a score has raised by more than 2 points within a 24 hour period?
 
@@ -101,5 +101,5 @@ If you've completed the Medi score calculation and feel you have enough time lef
 
 | Property                       | Score 3       | Score 2      | Score 1         | Score 0             | Score 1               | Score 2               | Score 3          |
 | ------------------------------ | ------------- | ------------ | --------------- | ------------------- | --------------------- | --------------------- | ---------------- |
-| CPG (When Fasting)             | 3.4 and below | 3.5 - 3.9    |                 | 4.0 - 5.4           |                       | 5.5 - 5.9             | 6.0 and above    |
-| CPG (2 hours after eating)     | 4.5 and below | 4.5 - 5.8    |                 | 5.9 - 7.8           |                       | 7.9 - 8.9             | 9.0 and above    |
+| CBG (When Fasting)             | 3.4 and below | 3.5 - 3.9    |                 | 4.0 - 5.4           |                       | 5.5 - 5.9             | 6.0 and above    |
+| CBG (2 hours after eating)     | 4.5 and below | 4.5 - 5.8    |                 | 5.9 - 7.8           |                       | 7.9 - 8.9             | 9.0 and above    |
