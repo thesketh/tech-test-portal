@@ -28,4 +28,4 @@ For junior developers, we have some simpler tests which require less boilerplate
 
 ### For Junior Candidates
 
- - [NEWS2 Score Calculation](/NEWS2-Score-Calculation) - write a function to calculate the NEWS2 score for a patient, based on physiological measurements.
+ - [Medi Score Calculation](/Medi-Score-Calculation) - write a function to calculate a medical score for a patient, based on physiological measurements.
